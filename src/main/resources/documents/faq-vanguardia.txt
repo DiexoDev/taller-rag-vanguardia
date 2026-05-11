@@ -1,0 +1,13 @@
+# PREGUNTAS FRECUENTES (FAQ) DE VANGUARDIA V1
+
+- ¿Las reservas en Vanguardia requieren pago en línea por defecto?
+En su versión V1, el modelo de datos cubre el aspecto de reserva y establecimiento de agenda. Las extensiones de pago o manejo de pasarelas virtuales no son la preocupación prioritaria respecto a la investigación de operaciones y reserva de espacios.
+
+- ¿Qué tecnología se usó en el Frontend?
+React junto con el empaquetador moderno Vite. Se migró de una arquitectura de archivo único a un patrón de carpetas modular, separando en componentes de React, contenedores de página global, y fragmentando el CSS por estilos globales y de componentes.
+
+- ¿Para qué sirvió la herramienta dbdiagram.io?
+Para estructurar e identificar antes que cualquier línea de código, las relaciones exactas entre las 4 entidades dominantes: Servicios, Categorías, Locales (Locations) y Datos de Reserva (Bookings). Se escribió un diagrama formal usando el lenguaje de marcado DBML.
+
+- ¿Qué es el "State" o contexto en React en el alcance de este aplicativo?
+Se refiere al mecanismo para transportar la elección del usuario. Cuando navega de CategoryLocations hacia BookingSection, Vanguardia recuerda a qué local le dio click, transportando este identificador para procesar la cita fluidamente.

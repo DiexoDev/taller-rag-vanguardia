@@ -1,0 +1,11 @@
+# CONCEPTOS RELEVANTES DE SPRING BOOT
+
+## Qué es Spring Boot
+Spring Boot es una extensión del framework Spring que facilita enormemente la creación de aplicaciones Java. Su principal característica es el enfoque iterativo de "convención sobre configuración", auto-configurando los proyectos y reduciendo los archivos XML o de configuración manual.
+
+## Componentes Esenciales para el Curso
+1. Servidor Embebido: Spring Boot incluye servidores como Tomcat o Undertow nativamente, lo que significa que el empaquetado JAR puede ejecutarse simplemente usando `java -jar`.
+2. Gestión de Dependencias (Starters): Las dependencias denominadas "Starters" agrupan módulos ampliamente utilizados. Ejemplos claves: `spring-boot-starter-web` para API REST, `spring-boot-starter-thymeleaf` para renderizado del vistas HTML desde el servidor.
+3. Inyección de Dependencias (@Service, @Controller): Se promueve una arquitectura en la que el contenedor Spring administra el ciclo de vida e inyección de objetos al vuelo.
+4. Integración RESTful (@RestController, RestTemplate): Facilita exponer endpoints o consumir APIs externas, crucial para interconectar modelos de IA (RAG) o LLMs sobre HTTP con payloads JSON.
+5. Archivos de Configuración: Usa de manera estandarizada application.properties o application.yml para inyectar variables de entorno de forma externa sin recopilar el código.

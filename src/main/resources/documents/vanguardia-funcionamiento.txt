@@ -1,0 +1,13 @@
+# ¿QUÉ ES VANGUARDIA V1 Y CÓMO FUNCIONA?
+
+## Visión General
+Vanguardia V1 es una plataforma digital desarrollada e ingeniada con el propósito inicial de centralizar y facilitar el sistema de agendamiento o reservas en locales y negocios. Su enfoque principal está orientado al sector de prestación de servicios como peluquerías, estéticas, spas o salones de belleza. 
+
+## ¿Cómo funciona el flujo de usuario?
+El funcionamiento visual es amigable:
+1. Inicio (Cards de Servicios): Cuando el usuario ingresa, visualiza diferentes botones circulares o componentes web de categorías de servicios disponibles (Ej: Uñas, Cortes de cabello, Masajes).
+2. Elección de Negocio (CategoryLocations): Al hacer clic en un servicio, el sistema filtra y despliega exclusivamente los establecimientos que se especializan u ofrecen ese servicio en su base de datos.
+3. Ver Disponibilidad y Booking: Al seleccionar un local específico (botón "Ver Disponibilidad"), la aplicación realiza un pasaje de contexto de los datos para rellenar la pre-reserva de forma automática en la pantalla de "BookingSection", ahorrando pasos al usuario (paso de estado a través de React).
+
+## Beneficio Subyacente (El Motor Matemático)
+Internamente, Vanguardia tiene implementadas nociones de Investigación de Operaciones. Esto permite que las agendas de cada estilista o profesional sean programadas para evitar sobrelapamientos, sugiriendo bloques lógicos donde se puede agendar la cita para maximizar las ganancias y aprovechamiento del tiempo en cada punto de servicio.

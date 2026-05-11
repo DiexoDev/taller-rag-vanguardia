@@ -1,0 +1,14 @@
+# REGLAMENTO ACADÉMICO INSTITUCIONAL
+
+## Normas Generales
+1. La asistencia a las actividades de docencia directa es de carácter obligatorio. Un estudiante con porcentaje de inasistencia superior al 20% perderá la asignatura por inasistencia.
+2. Todo proyecto de desarrollo de software debe cumplir con las normas de probidad académica, prohibiéndose el plagio o la copia no autorizada de código. El uso de Inteligencia Artificial como herramienta de apoyo está permitido y fomentado, siempre y cuando se declare explícitamente su aporte.
+
+## Fechas Importantes del Semestre
+- Primera Evaluación Parcial: Semana 5 del calendario.
+- Segunda Evaluación Parcial: Semana 10 del calendario.
+- Entrega Final - Proyecto de Aula: Semana 15 del calendario.
+- Sustentaciones: Semana 16 del calendario.
+
+## Requisitos de Aprobación
+Para aprobar una asignatura, la nota definitiva deberá ser igual o superior a 3.0 sobre 5.0. En caso de los talleres técnicos de Desarrollo de Software, el entregable funcional debe corresponder a los requisitos levantados a inicio del semestre.

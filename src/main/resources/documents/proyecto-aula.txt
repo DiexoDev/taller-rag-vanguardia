@@ -1,0 +1,12 @@
+# PROYECTO DE AULA: VANGUARDIA V1
+
+## Descripción
+El proyecto de aula del presente semestre consiste en el desarrollo de un prototipo funcional llamado "Vanguardia V1". Esta aplicación es una plataforma web centrada en la gestión de citas y reservas para negocios locales, como salones de belleza, spas y peluquerías.
+El aplicativo, cuyo frontend está construido utilizando React y Vite, implementa navegación dinámica, uso de componentes modulares y diseño enfocado en la experiencia del usuario (por ejemplo, el uso de íconos interactivos).
+
+## Requisitos del Proyecto
+1. Uso del patrón modular en componentes React.
+2. El sistema debe permitir la visualización de locales y servicios por categoría.
+3. El sistema debe enrutar correctamente los datos de reserva a través de "CategoryLocations" permitiendo al usuario continuar hacia el Booking con el contexto del restaurante o negocio.
+4. Integración de algoritmos lógicos en la parte administrativa, basándose en la Investigación de Operaciones para optimizar el recurso-tiempo (por ejemplo, sugiriendo bloques de asignación rentables).
+5. Se debe proveer un DBML formalizado de entidades: Locales, Servicios, Categorías y Reservas.

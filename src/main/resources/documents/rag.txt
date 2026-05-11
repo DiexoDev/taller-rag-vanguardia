@@ -1,0 +1,11 @@
+# CONCEPTOS SOBRE RAG (Retrieval-Augmented Generation)
+
+RAG, o Generación Aumentada por Recuperación, es una técnica de Inteligencia Artificial que mejora la calidad y precisión de las respuestas de un Modelo de Lenguaje Grande (LLM).
+
+## ¿Qué es RAG?
+Es una arquitectura que combina dos componentes principales:
+1. Un sistema de Recuperación (Retrieval): Busca documentos o fragmentos de información relevantes en una base de datos propia o corporativa (como un buscador interno).
+2. Un sistema generativo (LLM): Toma la pregunta del usuario junto con la información recuperada e instruye al modelo a responder utilizando únicamente esos datos.
+
+## ¿Por qué es importante?
+Los LLMs (como GPT-4, Llama 3) están entrenados con mucha información general, pero no conocen datos privados o recientes (como el código de una empresa moderna o el reglamento reciente de una universidad). RAG soluciona este problema suministrándole al modelo de lenguaje el "contexto" necesario en el momento mismo de la pregunta. Así se evitan las "alucinaciones" (cuando la IA inventa información) y se garantiza una respuesta acotada, veraz y fundamentada en datos reales.
