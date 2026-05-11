@@ -34,5 +34,3 @@ Este fork del proyecto base ha sido ajustado y escalado cumpliendo con los nivel
    ```
 4. Navega a `http://localhost:8080`, ingresa tus consultas en el chat y el asistente usará recuperación RAG para informarte sobre Vanguardia V1.
 
-## 📄 Documentación Técnica Completa
-Para ver el paso a paso detallado, capturas y captación de errores, puedes revisar la documentación de nuestro equipo alojada en [INFORME_TECNICO.md](./INFORME_TECNICO.md) ubicado en la raíz del proyecto.
